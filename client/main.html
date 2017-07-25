@@ -1,0 +1,14 @@
+<head>
+  <title>usblight</title>
+</head>
+
+<body>
+  
+  {{> pickColour}}
+</body>
+
+<template name="pickColour">
+  <div style="background-color: rgb({{colour}}); height: 100vh; width: 100vw; top: 0; left: 0; position: absolute;">
+    <input type="color" name="colourPicker" value="#ffffff">
+  </div>
+</template>
